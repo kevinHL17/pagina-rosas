@@ -1,0 +1,62 @@
+body {
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    background-image: url('flores.jpg.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    color: #333;
+}
+
+.container {
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 60px;
+    border-radius: 15px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    width: 80%;
+    max-width: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contenido {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.boton-elegante {
+    padding: 20px 40px;
+    font-size: 1.3em;
+    cursor: pointer;
+    border: none;
+    background-color: #3498db;
+    color: white;
+    border-radius: 10px;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    align-self: center;
+}
+
+.boton-elegante:hover {
+    background-color: #2980b9;
+    transform: scale(1.05);
+}
+
+.mensaje-oculto {
+    margin-top: 40px;
+    font-size: 1.4em;
+    color: #555;
+    display: none;
+    line-height: 1.6;
+}
+
+.mensaje-visible {
+    display: block;
+    font-weight: bold; /* Añadido */
+}
